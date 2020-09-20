@@ -56,7 +56,7 @@ class USAMap extends React.Component {
         xmlns="http://www.w3.org/2000/svg"
         width={this.props.width}
         height={this.props.height}
-        viewBox="0 0 959 593"
+        viewBox="0 0 980 593"
       >
         <title>{this.props.title}</title>
         <g className="outlines">
@@ -82,22 +82,22 @@ class USAMap extends React.Component {
           </g>
         </g>
 
-        <g id="text" font-family="Helvetica Neue" font-weight="bold">
-          <g font-size="14">
+        <g id="text" font-family="Helvetica Neue">
+          <g font-size="13">
             <text id="AKn" x="110" y="504">
-              3
+              AK 3
             </text>
             <text id="HIn" x="261" y="565">
-              4
+              HI 4
             </text>
             <text id="WAn" x="105" y="62">
-              12
+              WA 12
             </text>
             <text id="ORn" x="88" y="136">
-              7
+              OR 7
             </text>
             <text id="CAn" x="55" y="298">
-              55
+              CA 55
             </text>
             <text id="NVn" x="120" y="242">
               6

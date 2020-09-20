@@ -6,7 +6,10 @@ class SplitElectoralVotes extends Component {
     return (
       <div className="container">
         <h5 className="title">Split Electoral Votes</h5>
-        <div class="btn-group">
+
+
+	    
+	    <div class="btn-group">
           <button
             onClick={this.props.onClick}
             className={`state ${this.props.ME1}`}

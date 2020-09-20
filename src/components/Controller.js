@@ -3,6 +3,7 @@ import "../App.css";
 import USAMap from "./react-usa-map/src/index";
 import ProgressBar from "./ProgressBar";
 import SplitElectoralVotes from "./SplitElectoralVotes";
+import SmallElectoralVotes from "./SmallElectoralVotes";
 
 
 class Controller extends Component {
@@ -754,11 +755,28 @@ class Controller extends Component {
               )}
 
             </div>
-            <USAMap
+      
+	    <div>
+	    <USAMap
               title="United States of America"
               customize={this.statesCustomConfig()}
               onClick={this.mapHandler}
             />
+
+	    <SmallElectoralVotes
+	        onClick={this.mapHandler}
+                VT={this.state.states.VT.color}
+                NH={this.state.states.NH.color}
+                CT={this.state.states.CT.color}
+                DC={this.state.states.DC.color}
+		MA={this.state.states.MA.color}
+                DE={this.state.states.DE.color}
+                MD={this.state.states.MD.color}
+                NJ={this.state.states.NJ.color}
+                RI={this.state.states.RI.color}
+            />
+	    </div>
+
             <div>
 
               <SplitElectoralVotes
@@ -770,6 +788,7 @@ class Controller extends Component {
                 NE2={this.state.states.NE2.color}
                 NE3={this.state.states.NE3.color}
                 NE4={this.state.states.NE4.color}
+	        DC={this.state.states.DC.color}
               />
             </div>
             <br /> <br />

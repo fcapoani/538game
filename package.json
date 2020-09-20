@@ -1,6 +1,6 @@
 {
   "homepage": "http://538game.github.io/538game",
-  "name": "538game.github.io",
+  "name": "538game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

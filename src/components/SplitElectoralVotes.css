@@ -6,6 +6,33 @@
   margin-right: 0;
   white-space: nowrap;
 }
+.container2 {
+  display: inline-block;
+  margin-top: 0;
+  width: 100px;
+  float: right;
+  margin-left: 0px;
+  margin-right: 0;
+  white-space: nowrap;
+}
+.btn-group2 {
+  float: right;
+}
+
+.btn-group2 button {
+  height: 30px;
+  width: 30px;
+
+  background-color: #d3d3d3; /* Green background */
+  border: 1px solid black; /* Green border */
+  color: black; /* White text */
+  font-weight: bold;
+  padding: 2px 2px;
+  cursor: pointer; /* Pointer/hand icon */
+  float: right; /* Float the buttons side by side */
+}
+
+
 
 .btn-group {
   float: left;
