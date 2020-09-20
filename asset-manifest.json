@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/538game/static/css/main.d06ce4fc.chunk.css",
-    "main.js": "/538game/static/js/main.b1a5424d.chunk.js",
-    "main.js.map": "/538game/static/js/main.b1a5424d.chunk.js.map",
+    "main.css": "/538game/static/css/main.0c49ba5f.chunk.css",
+    "main.js": "/538game/static/js/main.29bfacc5.chunk.js",
+    "main.js.map": "/538game/static/js/main.29bfacc5.chunk.js.map",
     "runtime-main.js": "/538game/static/js/runtime-main.3feea74d.js",
     "runtime-main.js.map": "/538game/static/js/runtime-main.3feea74d.js.map",
     "static/js/2.2b2984ab.chunk.js": "/538game/static/js/2.2b2984ab.chunk.js",
     "static/js/2.2b2984ab.chunk.js.map": "/538game/static/js/2.2b2984ab.chunk.js.map",
     "index.html": "/538game/index.html",
-    "precache-manifest.4bc7b00305b716a454f99de8af2d0e26.js": "/538game/precache-manifest.4bc7b00305b716a454f99de8af2d0e26.js",
+    "precache-manifest.16825ba9bd0951bc1f6cb8f468c4bbd7.js": "/538game/precache-manifest.16825ba9bd0951bc1f6cb8f468c4bbd7.js",
     "service-worker.js": "/538game/service-worker.js",
-    "static/css/main.d06ce4fc.chunk.css.map": "/538game/static/css/main.d06ce4fc.chunk.css.map",
+    "static/css/main.0c49ba5f.chunk.css.map": "/538game/static/css/main.0c49ba5f.chunk.css.map",
     "static/js/2.2b2984ab.chunk.js.LICENSE.txt": "/538game/static/js/2.2b2984ab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3feea74d.js",
     "static/js/2.2b2984ab.chunk.js",
-    "static/css/main.d06ce4fc.chunk.css",
-    "static/js/main.b1a5424d.chunk.js"
+    "static/css/main.0c49ba5f.chunk.css",
+    "static/js/main.29bfacc5.chunk.js"
   ]
 }
