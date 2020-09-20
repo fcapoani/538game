@@ -16,7 +16,7 @@
   white-space: nowrap;
 }
 .btn-group2 {
-  float: right;
+  float: left
 }
 
 .btn-group2 button {
@@ -29,7 +29,7 @@
   font-weight: bold;
   padding: 2px 2px;
   cursor: pointer; /* Pointer/hand icon */
-  float: right; /* Float the buttons side by side */
+  float: left; /* Float the buttons side by side */
 }
 
 

@@ -336,13 +336,11 @@ class Controller extends Component {
       redStates[targetState] = votes; // add to redStates object
       redString[targetState] = code;
     }
-    // blue --> red
+    // blue --> blank
     else if (color === "blue") {
-      newColor = "red";
+      newColor = "";
       delete blueStates[targetState]; // remove from blueStates object
       delete blueString[targetState]; // remove from blueStates object
-      redStates[targetState] = votes; // add to redStates object
-      redString[targetState] = code;
     }
     // red --> blue
     else if (color === "red" ) {

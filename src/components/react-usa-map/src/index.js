@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import data from "./data/usa-map-dimensions";
 import USAState from "./components/USAState";
+import "./labelstyle.css";
 
 class USAMap extends React.Component {
   clickHandler = stateAbbreviation => {
@@ -84,159 +85,159 @@ class USAMap extends React.Component {
 
         <g id="text" font-family="Helvetica Neue">
           <g font-size="13">
-            <text id="AKn" x="110" y="504">
+            <text id="AKn" x="110" y="504" class="svgText">
               AK 3
             </text>
-            <text id="HIn" x="261" y="565">
+            <text id="HIn" x="261" y="565" class="svgText">
               HI 4
             </text>
-            <text id="WAn" x="105" y="62">
+            <text id="WAn" x="105" y="62" class="svgText">
               WA 12
             </text>
-            <text id="ORn" x="88" y="136">
+            <text id="ORn" x="88" y="136" class="svgText">
               OR 7
             </text>
-            <text id="CAn" x="55" y="298">
+            <text id="CAn" x="55" y="298" class="svgText">
               CA 55
             </text>
-            <text id="NVn" x="120" y="242">
+            <text id="NVn" x="120" y="242" class="svgText">
               6
             </text>
-            <text id="AZn" x="182" y="368">
+            <text id="AZn" x="182" y="368" class="svgText">
               11
             </text>
-            <text id="UTn" x="209" y="265">
+            <text id="UTn" x="209" y="265" class="svgText">
               6
             </text>
-            <text id="IDn" x="183" y="162">
+            <text id="IDn" x="183" y="162" class="svgText">
               4
             </text>
-            <text id="MTn" x="270" y="100">
+            <text id="MTn" x="270" y="100" class="svgText">
               3
             </text>
-            <text id="WYn" x="290" y="191">
+            <text id="WYn" x="290" y="191" class="svgText">
               3
             </text>
-            <text id="COn" x="311" y="283">
+            <text id="COn" x="311" y="283" class="svgText">
               9
             </text>
-            <text id="NMn" x="290" y="381">
+            <text id="NMn" x="290" y="381" class="svgText">
               5
             </text>
-            <text id="TXn" x="410" y="458">
+            <text id="TXn" x="410" y="458" class="svgText">
               38
             </text>
-            <text id="OKn" x="451" y="370">
+            <text id="OKn" x="451" y="370" class="svgText">
               7
             </text>
-            <text id="KSn" x="434" y="303">
+            <text id="KSn" x="434" y="303" class="svgText">
               6
             </text>
-            <text id="NEn" x="411" y="232">
+            <text id="NEn" x="411" y="232" class="svgText">
               5
             </text>
-            <text id="SDn" x="405" y="170">
+            <text id="SDn" x="405" y="170" class="svgText">
               3
             </text>
-            <text id="NDn" x="405" y="103">
+            <text id="NDn" x="405" y="103" class="svgText">
               3
             </text>
-            <text id="MNn" x="484" y="129">
+            <text id="MNn" x="484" y="129" class="svgText">
               10
             </text>
-            <text id="WIn" x="561" y="163">
+            <text id="WIn" x="561" y="163" class="svgText">
               10
             </text>
-            <text id="ILn" x="579" y="261">
+            <text id="ILn" x="579" y="261" class="svgText">
               20
             </text>
-            <text id="IAn" x="513" y="224">
+            <text id="IAn" x="513" y="224" class="svgText">
               6
             </text>
-            <text id="MOn" x="525" y="306">
+            <text id="MOn" x="525" y="306" class="svgText">
               10
             </text>
-            <text id="ARn" x="534" y="384">
+            <text id="ARn" x="534" y="384" class="svgText">
               6
             </text>
-            <text id="LAn" x="536" y="452">
+            <text id="LAn" x="536" y="452" class="svgText">
               8
             </text>
-            <text id="MSn" x="587" y="428">
+            <text id="MSn" x="587" y="428" class="svgText">
               6
             </text>
-            <text id="ALn" x="641" y="422">
+            <text id="ALn" x="641" y="422" class="svgText">
               9
             </text>
-            <text id="GAn" x="697" y="419">
+            <text id="GAn" x="697" y="419" class="svgText">
               16
             </text>
-            <text id="FLn" x="743" y="505">
+            <text id="FLn" x="743" y="505" class="svgText">
               29
             </text>
-            <text id="SCn" x="745" y="380">
+            <text id="SCn" x="745" y="380" class="svgText">
               9
             </text>
-            <text id="NCn" x="763" y="342">
+            <text id="NCn" x="763" y="342" class="svgText">
               15
             </text>
-            <text id="TNn" x="633" y="353">
+            <text id="TNn" x="633" y="353" class="svgText">
               11
             </text>
-            <text id="KYn" x="666" y="311">
+            <text id="KYn" x="666" y="311" class="svgText">
               8
             </text>
-            <text id="INn" x="630" y="262">
+            <text id="INn" x="630" y="262" class="svgText">
               11
             </text>
-            <text id="MIn" x="645" y="193">
+            <text id="MIn" x="645" y="193" class="svgText">
               16
             </text>
-            <text id="OHn" x="685" y="248">
+            <text id="OHn" x="685" y="248" class="svgText">
               18
             </text>
-            <text id="WVn" x="730" y="281">
+            <text id="WVn" x="730" y="281" class="svgText">
               5
             </text>
-            <text id="VAn" x="767" y="294">
+            <text id="VAn" x="767" y="294" class="svgText">
               13
             </text>
-            <text id="PAn" x="764" y="220">
+            <text id="PAn" x="764" y="220" class="svgText">
               20
             </text>
-            <text id="NYn" x="798" y="167">
+            <text id="NYn" x="798" y="167" class="svgText">
               29
             </text>
-            <text id="MEn" x="884" y="90">
+            <text id="MEn" x="884" y="90" class="svgText">
               4
             </text>
           </g>
           <g font-size="14">
-            <text id="NHn" x="800" y="58">
+            <text id="NHn" x="800" y="58" class="svgText">
               NH 4
             </text>
-            <text id="VTn" x="790" y="82">
+            <text id="VTn" x="790" y="82" class="svgText">
               VT 3
             </text>
-            <text id="MAn" x="927" y="164">
+            <text id="MAn" x="927" y="164" class="svgText">
               MA 11
             </text>
-            <text id="RIn" x="925" y="199">
+            <text id="RIn" x="925" y="199" class="svgText">
               RI 4
             </text>
-            <text id="CTn" x="918" y="228">
+            <text id="CTn" x="918" y="228" class="svgText">
               CT 7
             </text>
-            <text id="NJn" x="898" y="260">
+            <text id="NJn" x="898" y="260" class="svgText">
               NJ 14
             </text>
-            <text id="DEn" x="891" y="284">
+            <text id="DEn" x="891" y="284" class="svgText">
               DE 3
             </text>
-            <text id="MDn" x="883" y="305">
+            <text id="MDn" x="883" y="305" class="svgText">
               MD 10
             </text>
-            <text id="DCn" x="864" y="327">
+            <text id="DCn" x="864" y="327" class="svgText">
               DC 3
             </text>
           </g>

@@ -44,7 +44,7 @@ body {
 }
 
 .blank-filler {
-  float: center;
+  float: left;
   background: #d3d3d3;
   height: 100%;
   border-radius: inherit;

@@ -29,7 +29,6 @@ class ProgressBar extends Component {
           <DemFiller demPercentage={this.props.demPercentage} />
           <BlankFiller
             blankPercentage={this.props.blankPercentage}
-            blankVotes={this.props.blankVotes}
           />
           <RepFiller repPercentage={this.props.repPercentage} />
         </div>
@@ -50,7 +49,6 @@ const BlankFiller = props => {
       className="blank-filler"
       style={{ width: `${props.blankPercentage}%` }}
     >
-      {props.blankVotes >= 10 ? props.blankVotes : ""}
     </div>
   );
 };
