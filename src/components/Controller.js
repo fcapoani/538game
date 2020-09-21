@@ -739,7 +739,7 @@ class Controller extends Component {
 	            nella parte inferiore della mappa.</li>
 	        <li> Inserire il proprio nome nel campo apposito e premere <i>Invia!</i> una volta concluso il pronostico per inviarlo. Non è possibile inviare pronostici incompleti. </li>
 	        <li> Ogni giocatore riporterà un punteggio pari al numero di voti elettorali correttamente previsti. Nel caso di Maine e Nebraska, la corretta previsione del risultato <i>at large</i> assegnerà due punti
-	            per stato, mentre per quanto riguarda i distretti congressuali sarà assegnato un punteggio pari al numero di distretti indovinati, indipendentemente dall&#39esatta determinazione di ogni singolo collegio. Fanno fede
+	            per stato, mentre per quanto riguarda i distretti congressuali sarà assegnato un punteggio pari al numero di distretti indovinati, indipendentemente dall&#39;esatta determinazione di ogni singolo collegio. Fanno fede
 	            le nomine dei <i>pledged electors</i> con i <i>Certificate of Ascertainment</i> firmati dai Governatori e dal Sindaco del D.C. </li>
 	        <li> Sulla mappa sono riportate le abbreviazioni per ogni Stato o territorio e il loro valore: in caso di dubbio sulla collocazione geografica di uno Stato o di un territorio si consiglia di consultare una carta geografica degli Stati Uniti d&#39;America posteriore al 1959. </li>
 	        <li> Per ogni altro dubbio o bug report scrivere a <a href="mailto:538game@gmail.com">538game@gmail.com</a>. Il codice sorgente è disponibile nel repository <a href="https://github.com/538game/538game">538game/538game</a>. L&#39;applicazione è basata su <a href="https://github.com/Incerto13/react-electoral-map">react-electoral-map</a> di Incerto13.</li>
