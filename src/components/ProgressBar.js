@@ -11,13 +11,13 @@ class ProgressBar extends Component {
       <div>
         <div className="progress-bar-labels">
           <div className="dem-label">
-            Democrat &nbsp;&nbsp;{" "}
-            <span className="num-label">{this.props.demVotes} </span>
+            Biden-Harris &nbsp;&nbsp;{" "}
+	  <span className="num-label">{this.props.demVotes}&nbsp;{this.props.demVotes>269?"✓":""}</span>
           </div>
           <div className="rep-label">
             {" "}
-            <span className="num-label">{this.props.repVotes}</span>{" "}
-            &nbsp;&nbsp; Republican{" "}
+            <span className="num-label">{this.props.repVotes>269?"✓":""}&nbsp;{this.props.repVotes}</span>{" "}
+            &nbsp;&nbsp; Trump-Pence{" "}
           </div>
 
           <div className="marker">

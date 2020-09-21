@@ -101,115 +101,115 @@ class USAMap extends React.Component {
               CA 55
             </text>
             <text id="NVn" x="120" y="242" class="svgText">
-              6
+              NV 6
             </text>
             <text id="AZn" x="182" y="368" class="svgText">
-              11
+              AZ 11
             </text>
             <text id="UTn" x="209" y="265" class="svgText">
-              6
+              UT 6
             </text>
             <text id="IDn" x="183" y="162" class="svgText">
-              4
+              ID 4
             </text>
             <text id="MTn" x="270" y="100" class="svgText">
-              3
+              MT 3
             </text>
             <text id="WYn" x="290" y="191" class="svgText">
-              3
+              WY 3
             </text>
             <text id="COn" x="311" y="283" class="svgText">
-              9
+              CO 9
             </text>
             <text id="NMn" x="290" y="381" class="svgText">
-              5
+              NM 5
             </text>
             <text id="TXn" x="410" y="458" class="svgText">
-              38
+              TX 38
             </text>
             <text id="OKn" x="451" y="370" class="svgText">
-              7
+              OK 7
             </text>
             <text id="KSn" x="434" y="303" class="svgText">
-              6
+              KS 6
             </text>
             <text id="NEn" x="411" y="232" class="svgText">
-              5
+              NE 5
             </text>
             <text id="SDn" x="405" y="170" class="svgText">
-              3
+              SD 3
             </text>
             <text id="NDn" x="405" y="103" class="svgText">
-              3
+              ND 3
             </text>
             <text id="MNn" x="484" y="129" class="svgText">
-              10
+              MN 10
             </text>
             <text id="WIn" x="561" y="163" class="svgText">
-              10
+              WI 10
             </text>
             <text id="ILn" x="579" y="261" class="svgText">
-              20
+              IL 20
             </text>
             <text id="IAn" x="513" y="224" class="svgText">
-              6
+              IA 6
             </text>
             <text id="MOn" x="525" y="306" class="svgText">
-              10
+              MO 10
             </text>
             <text id="ARn" x="534" y="384" class="svgText">
-              6
+              AR 6
             </text>
             <text id="LAn" x="536" y="452" class="svgText">
-              8
+              LA 8
             </text>
             <text id="MSn" x="587" y="428" class="svgText">
-              6
+              MS 6
             </text>
             <text id="ALn" x="641" y="422" class="svgText">
-              9
+              AL 9
             </text>
             <text id="GAn" x="697" y="419" class="svgText">
-              16
+              GA 16
             </text>
             <text id="FLn" x="743" y="505" class="svgText">
-              29
+              FL 29
             </text>
             <text id="SCn" x="745" y="380" class="svgText">
-              9
+              SC 9
             </text>
             <text id="NCn" x="763" y="342" class="svgText">
-              15
+              NC 15
             </text>
             <text id="TNn" x="633" y="353" class="svgText">
-              11
+              TN 11
             </text>
             <text id="KYn" x="666" y="311" class="svgText">
-              8
+              KY 8
             </text>
             <text id="INn" x="630" y="262" class="svgText">
-              11
+              IN 11
             </text>
             <text id="MIn" x="645" y="193" class="svgText">
-              16
+              MI 16
             </text>
             <text id="OHn" x="685" y="248" class="svgText">
-              18
+              OH 18
             </text>
             <text id="WVn" x="730" y="281" class="svgText">
-              5
+              WV 5
             </text>
             <text id="VAn" x="767" y="294" class="svgText">
-              13
+              VA 13
             </text>
             <text id="PAn" x="764" y="220" class="svgText">
-              20
+              PA 20
             </text>
             <text id="NYn" x="798" y="167" class="svgText">
-              29
+              NY 29
             </text>
             <text id="MEn" x="884" y="90" class="svgText">
-              4
+              ME 4
             </text>
           </g>
           <g font-size="14">

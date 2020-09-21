@@ -6,6 +6,7 @@ import SplitElectoralVotes from "./SplitElectoralVotes";
 import SmallElectoralVotes from "./SmallElectoralVotes";
 
 
+
 class Controller extends Component {
   constructor(props) {
     super(props);
@@ -541,6 +542,20 @@ class Controller extends Component {
     this.stateToggle(event.target.dataset.name || event.target.value);
   };
 
+  submitHandler = (event) => {
+    // send in abbreviation from either normal state or the two split electoral ones (NE or ME)
+    console.log("submit");
+    if(this.state.demVotes + this.state.repVotes < 538)
+    {
+	  console.log("incompleto");
+          alert("La mappa è incompleta. Completare prima di inviare.");
+	  event.preventDefault();
+    }
+	  
+  };
+
+
+
   statesCustomConfig = () => {
     return {
       AL: {
@@ -705,6 +720,7 @@ class Controller extends Component {
         fill: this.state.states.WY.color
       }
     };
+
   };
 
 
@@ -714,8 +730,20 @@ class Controller extends Component {
       <>
         <div className="body">
           <div className="jumbotron">
-            <h1>Electoral College Map</h1>
-            <p className="page-header">270 Votes are Necessary to Win</p>
+            <h1>538</h1>
+            <p className="page-header">Pronostico per il Collegio elettorale</p>
+	    <ul> 
+	    	<li> Formulare il pronostico sulla composizione del Collegio elettorale per le elezioni presidenziali 2020 sulla mappa in calce </li>
+	    	<li> Le giurisdizioni indicate con il colore rosso s&#39;intendono assegnate al ticket repubblicano (Trump-Pence), quelle in colore blu al ticket democratico (Biden-Harris) </li>
+	        <li> Attenzione: il Maine e il Nebraska hanno i voti divisi. Indicare il risultato previsto nello Stato <i>at large</i> e nei singoli distretti congressuali usando gli appositi pulsanti
+	            nella parte inferiore della mappa.</li>
+	        <li> Inserire il proprio nome nel campo apposito e premere <i>Invia!</i> una volta concluso il pronostico per inviarlo. Non è possibile inviare pronostici incompleti. </li>
+	        <li> Ogni giocatore riporterà un punteggio pari al numero di voti elettorali correttamente previsti. Nel caso di Maine e Nebraska, la corretta previsione del risultato <i>at large</i> assegnerà due punti
+	            per stato, mentre per quanto riguarda i distretti congressuali sarà assegnato un punteggio pari al numero di distretti indovinati, indipendentemente dall&#39esatta determinazione di ogni singolo collegio. Fanno fede
+	            le nomine dei <i>pledged electors</i> con i <i>Certificate of Ascertainment</i> firmati dai Governatori e dal Sindaco del D.C. </li>
+	        <li> Sulla mappa sono riportate le abbreviazioni per ogni Stato o territorio e il loro valore: in caso di dubbio sulla collocazione geografica di uno Stato o di un territorio si consiglia di consultare una carta geografica degli Stati Uniti d&#39;America posteriore al 1959. </li>
+	        <li> Per ogni altro dubbio o bug report scrivere a <a href="mailto:538game@gmail.com">538game@gmail.com</a>. Il codice sorgente è disponibile nel repository <a href="https://github.com/538game/538game">538game/538game</a>. L&#39;applicazione è basata su <a href="https://github.com/Incerto13/react-electoral-map">react-electoral-map</a> di Incerto13.</li>
+	    </ul>
           </div>
           <div className="content">
             <ProgressBar
@@ -728,33 +756,18 @@ class Controller extends Component {
             />
 
 	<div>	    
-	  <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf7zMLEVT1STZfAU5Ij-xIzlyKSAu1lUER3sO1eChxOMXUrqw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-          Nome:  <input type="text" name="entry.522117626" id="entry.522117626"></input>
-  <input type="text" name="entry.1866044023" id="entry.1866044023" type="hidden" value={this.state.blueStringArray}></input>
-  <input type="text" name="entry.1432996165" id="entry.1432996165" type="hidden" value={this.state.redStringArray}></input>
-  <input type="submit" value="Submit" />
-</form>
-
-	    </div>
-
+	  <form name="gform" id="gform" enctype="text/plain"  onSubmit={this.submitHandler} action="https://docs.google.com/forms/d/e/1FAIpQLSf7zMLEVT1STZfAU5Ij-xIzlyKSAu1lUER3sO1eChxOMXUrqw/formResponse?" target="hidden_iframe">
+           Nome:  <input type="text" name="entry.522117626" id="entry.522117626"></input>
+           <input type="text" name="entry.1866044023" id="entry.1866044023" type="hidden" value={this.state.blueStringArray}></input>
+           <input type="text" name="entry.1432996165" id="entry.1432996165" type="hidden" value={this.state.redStringArray}></input>
+           <input type="submit" value="Invia!"/>
+          </form>
+        </div>
 
 
-          <div className="toggle-btns">
-              {this.state.demVotes >= 270 && (
-                <span className="winner-text" style={{ color: "blue" }}>
-                  Democrats Win!
-                </span>
-              )}
 
-              {this.state.repVotes >= 270 && (
-                <span className="winner-text" style={{ color: "red" }}>
-                  Republicans Win!
-                </span>
-              )}
-
-            </div>
-      
-	    <div>
+     
+        <div>
 	    <USAMap
               title="United States of America"
               customize={this.statesCustomConfig()}
@@ -773,7 +786,7 @@ class Controller extends Component {
                 NJ={this.state.states.NJ.color}
                 RI={this.state.states.RI.color}
             />
-	    </div>
+        </div>
 
             <div>
 
@@ -786,7 +799,6 @@ class Controller extends Component {
                 NE2={this.state.states.NE2.color}
                 NE3={this.state.states.NE3.color}
                 NE4={this.state.states.NE4.color}
-	        DC={this.state.states.DC.color}
               />
             </div>
             <br /> <br />
